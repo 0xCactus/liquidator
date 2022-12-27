@@ -35,7 +35,7 @@ A private RPC is required as public RPCs have strict rate limiting and response 
 APP=production
 RPC_ENDPOINT=https://YOUR-RPC-URL
 SECRET_PATH=/path/to/wallet/id.json
-MARKETS=4UpD2fh7xH3VP9QQaXtsS1YY3bxzWhtfpks7FatyKvdY # OPTIONAL
+MARKET=4UpD2fh7xH3VP9QQaXtsS1YY3bxzWhtfpks7FatyKvdY # OPTIONAL
 TARGETS=USDC:100 USDT:5 SOL:0.5 SLND:100 ETH:0.05 BTC:0.001 mSOL:0.1 stSOL:0.1 RAY:1 SRM:1 FTT:.125 ORCA:1 # OPTIONAL
 ```
 4. Now run `npm run build && npm start`
